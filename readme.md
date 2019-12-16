@@ -2,7 +2,9 @@
 
 使用zigbee创建终端节点，获取温度，并通过路由传到协调器或者直接传到协调器，协调器将数据进行处理并打印到PC或Android上。
 
- <br>
+<br>
+<hr>
+<br>
 
  本文分为几个部分，分别如下
 
@@ -14,8 +16,10 @@
 |Zigbee_endpointsr|终端节点|
 
 <br>
+<hr>
+<br>
 
-Zigbee的功能如下：
+# Zigbee的功能如下：
 - 当组件网络成功后或节点连接入网络，蓝灯持续点亮
 - 当收到 network_topology 时协调器发送拓扑结构到串口上，格式如下：
 		Coordinator：网络地址
@@ -27,3 +31,25 @@ Zigbee的功能如下：
 - 当收到 on 时终端节点将自己的灯点亮。（黄灯）
 - 当收到 off时终端节点将自己的灯熄灭。 （黄灯）
 - 当收到 toggle时终端节点周期性5000ms闪烁灯 （黄灯）
+
+<br>
+<hr>
+<br>
+
+
+## coordinator
+
+![Q5a90I.png](https://s2.ax1x.com/2019/12/16/Q5a90I.png)
+
+## endpoints
+
+![Q5aC7t.png](https://s2.ax1x.com/2019/12/16/Q5aC7t.png)
+
+## 让某一个文件不参与编译
+
+Project->options
+
+![Q5aaH1.png](https://s2.ax1x.com/2019/12/16/Q5aaH1.png)
+
+<br>
+<hr>
